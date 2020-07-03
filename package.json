@@ -1,0 +1,40 @@
+{
+  "name": "wutao-wx-share",
+  "version": "1.2.1",
+  "description": "a wx sdk about share",
+  "author": "wutao",
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "prod": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "license": "MIT",
+  "bugs": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^1.0.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 4.0.0"
+  }
+}
