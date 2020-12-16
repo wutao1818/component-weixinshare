@@ -10,7 +10,7 @@ WutaoWxShare({
   jsApiList: ['hideOptionMenu']
 },(wx)=>{
   wx.hideOptionMenu();
-})
+});
 
 或者
 WutaoWxShare({
